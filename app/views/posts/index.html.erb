@@ -1,10 +1,12 @@
 <h1> All Posts </h2>
-<a href="/posts/new"> Add New Post</a>
+<!-- <a href="/posts/new"> Add New Post</a> -->
+<%= link_to "Add New Post", new_post_path %>
+<!-- <a href="/comments/new">Add New Comment</a> -->
+
 <ul>
   <% @posts.each do |post| %>
 <li>
-  <a href="/posts/<%= post.id %>">
-   <%= post.title %>
+  <%= link_to post.title, post_path(post) %>
  </a>
  </li>
   <% end %>
