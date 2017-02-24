@@ -1,6 +1,6 @@
 <h2> Edit: <%= @post.title %></h2>
 
-
+<div class="well">
 <%= form_for  @post, url: "/posts/#{@post.id}" do |f| %>
 
   <%= f.label :title %>
@@ -23,3 +23,4 @@
 <%= form_for @post, url: "/posts/#{@post.id}", method: :delete do |f| %>
 <% f.submit "Delete", class: "btn-delete"%>
 <% end %>
+</div>
