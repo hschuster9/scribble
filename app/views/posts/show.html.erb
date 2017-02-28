@@ -1,9 +1,9 @@
 <h4><%= link_to "Back to All Posts", posts_path %></h4>
 <div class="posttitle">
-<h2><%= @post.title %></h2> <h4><%= link_to "Edit Post", edit_post_path %></h2>
+<h2><%= @post.title %></h2> <h4><%= link_to "Edit Post", edit_post_path %></h4>
 </div>
 <div class="postcontent">
-<p>Updated by <%= @post.author %> at <%= @post.updated_at %></p>
+<h6>Updated by <%= @post.author %> at <%= @post.updated_at %></h6>
 
 
 <%= @post.content %>

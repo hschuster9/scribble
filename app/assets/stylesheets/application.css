@@ -19,31 +19,31 @@ body {
   font-family: Helvetica Neue;
 }
 
-ul p{
+/*ul p{
   font-size: 10px;
   margin-left: 2%;
-}
-
+}*/
+/*
 .posttitle {
   margin-left: 2%;
 
-}
-
+}*/
+/*
 .posttitle h2 {
   font-size: 20px;
 
-}
+}*/
 
-.postcontent {
+/*.well {
     height: 50%;
     width: 50%;
     font-size: 14px;
     margin-left: 2%;
-}
+}*/
 
-.postcontent p {
+/*.postcontent p {
   font-size: 10px;
-}
+}*/
 
 .commenttitle{
   margin-left: 8%;

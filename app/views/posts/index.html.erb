@@ -7,17 +7,16 @@
 <ul>
 
   <% @posts.each do |post| %>
-<div class="postsection">
+
+<div class="well">
   <h3><strong><%= link_to post.title, post_path(post) %></strong></h3>
 
   <p>Created by <%= post.author %> at <%= post.created_at%></p>
 
-  <div class="postcontent">
-    <%= post.content %>
-  </div>
-  </div>
-  <br>
-  <br>
-  <% end %>
 
+    <%= post.content %>
+  <br>
+
+  <% end %>
+</div>
 </ul>
